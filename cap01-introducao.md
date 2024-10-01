@@ -114,10 +114,11 @@ Object instancia = construtor.newInstance();
 ```java
 Method metodo = classe.getMethod("metodoGenerico");
 Type tipoRetorno = metodo.getGenericReturnType();
+
 if (tipoRetorno instanceof ParameterizedType) {
-ParameterizedType tipoParametrizado = (ParameterizedType) tipoRetorno;
-Type[] tiposGenericos = tipoParametrizado.getActualTypeArguments();
-// Faça a mágica com os tipos genéricos aqui
+    ParameterizedType tipoParametrizado = (ParameterizedType) tipoRetorno;
+    Type[] tiposGenericos = tipoParametrizado.getActualTypeArguments();
+    // Faça a mágica com os tipos genéricos aqui
 }
 ```
 
