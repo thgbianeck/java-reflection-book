@@ -45,3 +45,51 @@ Ao lado do teclado, há uma caneca de café fumegante com o logotipo da startup.
 Na parede atrás de Iara, há um quadro branco com diagramas e notas sobre o projeto de diagnóstico auxiliado por IA em que ela está trabalhando. Perto de sua mesa, há uma estante com livros técnicos sobre Java, Inteligência Artificial e uma pequena coleção de figures de personagens de Star Trek.
 
 Negativo: Deformações, distorções, proporções incorretas, anatomia errada, membros extras, dedos a mais, mãos ou pés deformados, características faciais assimétricas, olhos desalinhados, boca mal posicionada, nariz deformado, orelhas mal posicionadas, pescoço anormal, ombros desproporcionais, braços ou pernas irregulares, corpo desproporcional, cabeça desproporcional, cabelo não natural, roupas mal ajustadas, objetos duplicados, monitores extras, teclados múltiplos, partes do corpo extras, cadeiras ou mesas duplicadas, plantas duplicadas, canecas extras, livros flutuantes, figures mal posicionadas, quadros brancos múltiplos, paredes inconsistentes, janelas duplicadas, luzes estranhas, sombras inconsistentes, reflexos irrealistas, texturas borradas, perspectiva incorreta, falta de profundidade, elementos 2D em 3D, artefatos digitais, pixelização, ruído excessivo, bordas irregulares, olhos cruzados, pupilas deformadas, dentes estranhos, língua visível, boca aberta, expressão facial não natural, postura não natural, dedos dos pés visíveis
+
+## Contexto Atualizado: Iara na MediSync Solutions
+
+## Cenário
+
+Iara Fernandes Oliveira, programadora Java júnior de 24 anos, trabalha na MediSync Solutions, uma startup inovadora de healthtech em São Paulo. A empresa desenvolve o MediSync Pro, um sistema abrangente de gestão para clínicas médicas.
+
+## Posição de Iara
+
+- **Cargo:** Desenvolvedora Java Júnior
+- **Tempo na empresa:** 1 ano e 8 meses
+- **Equipe:** Desenvolvimento de Backend
+
+## Projeto Atual
+
+Iara está envolvida no desenvolvimento de um novo módulo de IA para auxílio diagnóstico, uma das iniciativas estratégicas da MediSync para expandir suas capacidades tecnológicas.
+
+## Desafios
+
+1. Integrar algoritmos de machine learning com o sistema existente.
+2. Garantir a segurança e privacidade dos dados dos pacientes.
+3. Otimizar o desempenho do sistema para lidar com análises em tempo real.
+4. Colaborar com a equipe médica para validar a precisão do módulo de IA.
+
+## Ambiente de Trabalho
+
+- Equipe jovem e dinâmica de 28 funcionários.
+- Cultura startup com foco em inovação e rápido crescimento.
+- Ambiente que incentiva a aprendizagem contínua e a experimentação.
+
+## Objetivos de Iara
+
+1. Aprimorar suas habilidades em IA e machine learning.
+2. Contribuir significativamente para o sucesso do novo módulo.
+3. Crescer profissionalmente dentro da MediSync Solutions.
+4. Ajudar a empresa a atingir sua visão de liderança no mercado latino-americano.
+
+## Tecnologias Utilizadas
+
+- Java (principal linguagem de backend)
+- Spring Framework
+- MySQL para banco de dados principal
+- MongoDB para armazenamento de dados não estruturados
+- Docker para containerização
+- AWS para infraestrutura em nuvem
+- TensorFlow e PyTorch para modelos de IA
+
+Este contexto coloca Iara no centro de um projeto desafiador e inovador, alinhado com sua paixão por tecnologia e seu desejo de crescimento profissional.
