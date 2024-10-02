@@ -1,5 +1,6 @@
 # MediSync Solutions
 
+![Medisync](img/medisync.jpg)
 **Slogan:** "Simplificando a gestão médica, potencializando o cuidado"
 
 ## Dados da Empresa

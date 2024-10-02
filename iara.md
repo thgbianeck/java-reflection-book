@@ -4,11 +4,11 @@
 
 ## Perfil
 
-**Nome:** Iara Fernandes Oliveira
-**Idade:** 24 anos
-**Origem:** Pato Branco - PR
-**Profissão:** Programadora Java Júnior
-**Estado Civil:** Solteira
+- **Nome:** Iara Fernandes Oliveira
+- **Idade:** 24 anos
+- **Origem:** Pato Branco - PR
+- **Profissão:** Programadora Java Júnior
+- **Estado Civil:** Solteira
 
 ## Características Físicas
 
@@ -39,10 +39,12 @@ Nascida em Pato Branco, Iara descobriu sua paixão por programação ainda jovem
 
 ## Cena: Iara no Escritório da Startup
 
-Uma jovem programadora de 24 anos, está sentada em um escritório moderno e vibrante de uma startup. O espaço é aberto, com paredes de vidro e tijolo aparente, decorado com plantas e arte urbana colorida. Iara está em frente a uma estação de trabalho ergonômica, com dois monitores de tela plana exibindo linhas de código Java.
-Ela veste uma camiseta geek preta com o logotipo do Java, jeans azul e tênis coloridos. Seus cabelos enrolados e volumosos, castanho-escuros com mechas rosa e laranja, estão soltos, caindo em cascata sobre seus ombros e emoldurando seu rosto. Iara tem uma expressão concentrada, com seus grandes olhos cor de mel focados na tela enquanto digita em um teclado mecânico.
-Ao lado do teclado, há uma caneca de café fumegante com o logotipo da startup. O ambiente ao redor é dinâmico, com outros jovens profissionais trabalhando em mesas próximas ou em áreas de descontração com puffs e uma mesa de pingue-pongue ao fundo.
-Na parede atrás de Iara, há um quadro branco com diagramas e notas sobre o projeto de diagnóstico auxiliado por IA em que ela está trabalhando. Perto de sua mesa, há uma estante com livros técnicos sobre Java, Inteligência Artificial e uma pequena coleção de figures de personagens de Star Trek.
+No escritório da MediSync Solutions, Iara, uma programadora muito bonita, atlética, ela parece uma modelo, 1,75 m, 24 anos, trabalha focada em seu projeto. O ambiente moderno reflete o profissionalismo de uma empresa especializada em sistemas para clínicas médicas.
+Iara veste o uniforme padrão: camisa polo azul-marinho com o logotipo da MediSync bordado, calças sociais cinza claro e sapatos pretos confortáveis. Seus cabelos enrolados castanho-escuros com mechas coloridas estão soltos, combinando seu estilo pessoal com a política da empresa. Um crachá de identificação está preso à camisa.
+Em sua estação ergonômica, ela se concentra em dois monitores exibindo código Java do MediSync Pro. Iara trabalha na atualização do módulo de agendamento inteligente de consultas, digitando em um teclado mecânico.
+O escritório tem cores suaves de azul e branco, com infográficos sobre eficiência clínica nas paredes. Outros desenvolvedores, similarmente uniformizados, discutem em uma sala de reuniões próxima, enquanto uma equipe conversa com um médico via videoconferência.
+Próximo à mesa de Iara, uma estante contém livros técnicos e uma discreta figure de Star Trek. Um monitor na parede exibe métricas em tempo real do uso do MediSync Pro em clínicas clientes.
+Esta cena equilibra o profissionalismo necessário para uma empresa de tecnologia médica com elementos que permitem expressão individual, refletindo a cultura da MediSync Solutions. O ambiente transmite a dedicação da equipe em desenvolver soluções eficientes e confiáveis para o setor de saúde, mesclando inovação tecnológica com as necessidades específicas das clínicas médicas.
 
 Negativo: Deformações, distorções, proporções incorretas, anatomia errada, membros extras, dedos a mais, mãos ou pés deformados, características faciais assimétricas, olhos desalinhados, boca mal posicionada, nariz deformado, orelhas mal posicionadas, pescoço anormal, ombros desproporcionais, braços ou pernas irregulares, corpo desproporcional, cabeça desproporcional, cabelo não natural, roupas mal ajustadas, objetos duplicados, monitores extras, teclados múltiplos, partes do corpo extras, cadeiras ou mesas duplicadas, plantas duplicadas, canecas extras, livros flutuantes, figures mal posicionadas, quadros brancos múltiplos, paredes inconsistentes, janelas duplicadas, luzes estranhas, sombras inconsistentes, reflexos irrealistas, texturas borradas, perspectiva incorreta, falta de profundidade, elementos 2D em 3D, artefatos digitais, pixelização, ruído excessivo, bordas irregulares, olhos cruzados, pupilas deformadas, dentes estranhos, língua visível, boca aberta, expressão facial não natural, postura não natural, dedos dos pés visíveis
 
