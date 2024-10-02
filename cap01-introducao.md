@@ -78,12 +78,14 @@ Mesmo os feiticeiros mais experientes da programação às vezes se enrolam com 
 
 1. **"Por que meu método privado não quer ser invocado?"** 🔒
 
-   - Erro: IllegalAccessException ao tentar invocar um método privado.
+   - Erro: `IllegalAccessException` ao tentar invocar um método privado.
    - Solução Mágica: Use o feitiço `setAccessible(true)` no método antes de invocá-lo. É como ter uma chave mestra para áreas restritas!
 
+```java
 Method metodoSecreto = classe.getDeclaredMethod("metodoPrivado");
 metodoSecreto.setAccessible(true);
 metodoSecreto.invoke(instancia);
+```
 
 2. **"Socorro! Minha classe sumiu!"** 🕵️‍♂️
 
@@ -95,8 +97,10 @@ metodoSecreto.invoke(instancia);
    - Erro: NoSuchMethodException ao tentar criar uma instância.
    - Solução Mágica: Certifique-se de que está usando o construtor certo. Se for um construtor sem parâmetros, use `getDeclaredConstructor()` sem argumentos.
 
+```java
 Constructor<?> construtor = classe.getDeclaredConstructor();
 Object instancia = construtor.newInstance();
+```
 
 4. **"Meus parâmetros estão todos bagunçados!"** 🎭
 
@@ -123,6 +127,7 @@ Object instancia = construtor.newInstance();
    - Dúvida: Dificuldade em trabalhar com métodos que usam generics.
    - Solução Mágica: Use `ParameterizedType` para obter informações sobre tipos genéricos. É como decifrar um código genético em Java!
 
+```java
 Method metodo = classe.getMethod("metodoGenerico");
 Type tipoRetorno = metodo.getGenericReturnType();
 
@@ -131,15 +136,18 @@ ParameterizedType tipoParametrizado = (ParameterizedType) tipoRetorno;
 Type[] tiposGenericos = tipoParametrizado.getActualTypeArguments();
 // Faça a mágica com os tipos genéricos aqui
 }
+```
 
 9. **"Como lidar com arrays usando Reflection?"** 📊
 
    - Dúvida: Dificuldade em criar ou manipular arrays dinamicamente.
    - Solução Mágica: Use `Array.newInstance()` para criar arrays e `Array.set()` e `Array.get()` para manipulá-los.
 
+```java
 Object arrayMagico = Array.newInstance(String.class, 3);
 Array.set(arrayMagico, 0, "Abracadabra");
 String elemento = (String) Array.get(arrayMagico, 0);
+```
 
 10. **"Reflection e segurança, como fica?"** 🔐
     - Dúvida: Preocupações sobre implicações de segurança ao usar Reflection.
@@ -274,6 +282,7 @@ Lembre-se, jovem feiticeiro do Java, a Reflection é uma magia avançada. Com gr
 1. **Operação Listagem de Métodos**:
    Sua missão, caso decida aceitá-la, é criar um programa espião que use Reflection para listar todos os métodos públicos de uma classe fornecida pelo usuário. É como criar um raio-X para classes Java!
 
+```java
 import java.lang.reflect.Method;
 
 public class EspiaoDeMetodos {
@@ -296,17 +305,19 @@ Method[] metodosSecretos = classeAlvo.getMethods();
     }
 
 }
+```
 
 2. **Operação Invocação de Método**:
    Sua próxima missão é criar um programa que use Reflection para invocar um método específico de uma classe, como se fosse um controle remoto universal para métodos Java!
 
+```java
 import java.lang.reflect.Method;
 
 public class InvocadorDeMetodos {
-public static void invocarMetodoSecreto(String nomeClasse, String nomeMetodo, Object... args)
+    public static void invocarMetodoSecreto(String nomeClasse, String nomeMetodo, Object... args)
 throws Exception {
-Class<?> classeAlvo = Class.forName(nomeClasse);
-Object instanciaSecreta = classeAlvo.getDeclaredConstructor().newInstance();
+        Class<?> classeAlvo = Class.forName(nomeClasse);
+        Object instanciaSecreta = classeAlvo.getDeclaredConstructor().newInstance();
 
         Class<?>[] tiposParametros = new Class<?>[args.length];
         for (int i = 0; i < args.length; i++) {
@@ -328,11 +339,13 @@ Object instanciaSecreta = classeAlvo.getDeclaredConstructor().newInstance();
     }
 
 }
+```
 
 ## Estudo de caso: Iara e o Sistema de Diagnóstico IA Ultra Flexível 🦸‍♀️🔬
 
 Iara está criando um sistema de diagnóstico auxiliado por IA que precisa ser mais flexível que um contorcionista do Cirque du Soleil. Ela decide usar Reflection para criar um sistema plugável que possa carregar novos módulos de análise mais rápido que você pode dizer "Inteligência Artificial"!
 
+```java
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
@@ -373,6 +386,7 @@ private Map<String, Class<?>> modulosDiagnostico = new HashMap<>();
     }
 
 }
+```
 
 Neste exemplo digno de um filme de ficção científica, Iara criou um sistema que pode registrar novos módulos de diagnóstico mais rápido que você pode dizer "Beam me up, Scotty!". O sistema pode executar esses módulos sem nem saber como eles funcionam por dentro, como se fosse mágica! Isso permite que novos módulos sejam adicionados ao sistema mais fácil que atualizar um app no celular, dando ao sistema uma flexibilidade de fazer inveja a qualquer iogue.
 
